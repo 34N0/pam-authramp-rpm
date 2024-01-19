@@ -17,6 +17,8 @@ The AuthRamp PAM (Pluggable Authentication Modules) module provides an account l
 based on the number of authentication failures. It calculates a dynamic delay for subsequent
 authentication attempts, increasing the delay with each failure to mitigate brute force attacks.
 
+%global debug_package %{nil}
+
 %prep
 %autosetup
 
