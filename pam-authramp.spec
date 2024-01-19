@@ -32,9 +32,9 @@ install -D -p -m 644 examples/system-auth/authramp.conf %{buildroot}/etc/securit
 %files
 %license LICENSE
 %doc README.md SECURITY.md
-%{buildroot}%{_bindir}/authramp
-%{buildroot}%{_libdir}/security/libpam_authramp.so
-%{buildroot}/etc/security/authramp.conf
+%{_bindir}/authramp
+%{_libdir}/security/libpam_authramp.so
+/etc/security/authramp.conf
 
 %changelog
 * Fri Jan 19 2024 34n0 <34n0@immerda.ch> - 0.9.1
