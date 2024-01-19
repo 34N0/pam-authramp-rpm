@@ -1,11 +1,11 @@
 Name: pam-authramp
-Version: 0.9.1
+Version: 0.9.1-beta
 Release: 1%{?dist}
 Summary: The AuthRamp PAM module provides an account lockout mechanism based on the number of authentication failures.
 
 License: GPL-3.0-or-later
 URL: https://github.com/34N0/pam-authramp
-Source0: https://github.com/34N0/pam-authramp/archive/refs/tags/v%{version}-beta.tar.gz
+Source0: https://github.com/34N0/pam-authramp/archive/refs/tags/v%{version}.tar.gz
 
 BuildRequires: rust
 BuildRequires: cargo
