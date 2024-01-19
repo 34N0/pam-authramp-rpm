@@ -21,7 +21,7 @@ authentication attempts, increasing the delay with each failure to mitigate brut
 %autosetup
 
 %build
-cargo build --p lib -p cli --release
+cargo build -p lib -p cli --release
 
 %install
 install -D -p -m 755 target/release/authramp %{buildroot}%{_bindir}/authramp
