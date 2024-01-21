@@ -1,5 +1,5 @@
 Name: pam-authramp
-Version: 0.9.3
+Version: 0.9.5
 Release: 1%{?dist}
 Summary: The AuthRamp PAM module provides an account lockout mechanism based on the number of authentication failures.
 
