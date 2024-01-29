@@ -1,3 +1,5 @@
+%bcond_without check
+
 Name: pam-authramp
 Version: 0.9.7
 Release: 1%{?dist}
