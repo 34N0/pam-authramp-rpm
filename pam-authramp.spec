@@ -5,7 +5,7 @@ Summary: The AuthRamp PAM module provides an account lockout mechanism based on 
 
 License: GPL-3.0-or-later
 URL: https://github.com/34N0/pam-authramp
-Source0: https://github.com/34N0/pam-authramp/archive/refs/tags/v%{version}.tar.gz
+Source0: https://github.com/34N0/pam-authramp/archive/refs/tags/%{version}.tar.gz
 
 BuildRequires:  cargo-rpm-macros >= 24
 BuildRequires: pam-devel
