@@ -1,11 +1,11 @@
 Name: pam-authramp
-Version: v0.9.7
+Version: 0.9.7
 Release: 1%{?dist}
 Summary: The AuthRamp PAM module provides an account lockout mechanism based on the number of authentication failures.
 
 License: GPL-3.0-or-later
 URL: https://github.com/34N0/pam-authramp
-Source0: https://github.com/34N0/pam-authramp/archive/refs/tags/%{version}.tar.gz
+Source0: https://github.com/34N0/pam-authramp/archive/refs/tags/v%{version}.tar.gz
 
 BuildRequires:  cargo-rpm-macros >= 24
 BuildRequires: pam-devel
@@ -21,7 +21,7 @@ authentication attempts, increasing the delay with each failure to mitigate brut
 %description %{_description}
 
 %prep
-%autosetup -n pam-rampdelay-%{version} -p1
+%autosetup -n pam-authramp-%{version} -p1
 %cargo_prep
 
 %generate_buildrequires
