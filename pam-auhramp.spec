@@ -30,7 +30,9 @@ authentication attempts, increasing the delay with each failure to mitigate brut
 %cargo_generate_buildrequires -a
 
 %build
-%cargo_build
+cargo build --release
+cargo build --release -p cli
+
 %{cargo_license_summary}
 %{cargo_license} > LICENSE.dependencies
 
