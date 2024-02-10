@@ -42,7 +42,7 @@ install -D -p -m 755 target/release/libpam_authramp.so %{buildroot}%{_libdir}/se
 install -D -p -m 644 examples/system-auth/authramp.conf %{buildroot}/etc/security/authramp.conf
 
 %files
-%license LICENSE
+%license LICENSE-GPL
 %doc CODE_OF_CONDUCT.md
 %doc CONTRIBUTING.md
 %doc README.md
